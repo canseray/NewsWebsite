@@ -1,0 +1,33 @@
+body { margin: 0; font-family: 'Arial'; margin-bottom: 40px;}
+nav { background-color: #FA8072; padding: 20px; }
+nav > a{ display: inline-block; padding: 10px; background-color: #FFF;
+         text-decoration: none; font-weight: bold; color:#9370DB;
+         transition-duration: 0,5s;
+}
+
+nav > a:hover {background-color: #CCC; }
+
+body > h1{ margin: 30px 40px 20px 40px; border-bottom: 2px solid #DDD;
+           padding-bottom: 10px;}
+
+body > footer{ padding: 20px; background-color: #EEE;
+               position: fixed; bottom: 0; left: 0; width: 100&;
+}
+body > section{ margin: 0 40px;}
+
+
+
+//contact
+#contact-form{ }
+#contact-form .line{ margin-bottom: 10px;}
+#contact-form label{ display: block; margin-bottom: 3px;}
+#contact-form input{ width: 300px; margin-bottom: 20px; }
+#contact-form textarea{ width: 300px; margin-bottom: 20px; padding: 5px; min-height: 80px;
+                        resize: vertical;}
+#contact-form button{ padding: 10px 15px;}
+
+
+//news
+.new { background-color: #EEE; padding: 20px; margin-bottom: 20px; }
+.new .date {color: #555; margin-top: 20px; font-size: 12px;}
+
